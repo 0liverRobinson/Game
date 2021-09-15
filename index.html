@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-16">
+        <link rel="shortcut icon" href="img/boulder.png" type="image/x-icon">
+        <title>ゲーム</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+        <style>::selection {display: none;} input::-webkit-inner-spin-button{display: none;} </style>
+    </head>
+<body onmousemove="shipCoords(event)" onkeydown="toggleEvents(event)">
+    <img id="ship" src="img/shipSheet.png" height="0" width="0"><img src="img/rocket.png" height="0" width="0">
+    <img id="boulder" src="img/boulder.png" height="0" width="0">
+    <img id="health" src="img/heart.png" height="0" width="0"> 
+    <img id="ihealth" src="img/heart_empty.png" height="0" width="0">
+    <canvas></canvas>
+    <input spellcheck="false" type="number" style=" display: none; border: none; outline: none; color: white; background-color: transparent; height: 50px; width: 310px; font-size: 70px;"></input>
+    <script src="script.js"></script>
+    </body>
+</html>
